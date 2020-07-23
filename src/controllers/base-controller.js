@@ -4,7 +4,7 @@ module.exports = {
     index: (req, res) => {
         return res.status(200).json({
             success: true,
-            message: "Hi ya! :)",
+            message: "Hey there :)",
         })
     },
 
